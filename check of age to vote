@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+class age 
+{
+	int age;
+	void get()
+    {
+    	cout<<"enter your age : ";
+    	cin>>age;
+	}
+	public:
+		void display()
+		{
+			get();
+			if(age>=18)
+			{
+				cout<<"you are eligible to vote";
+			}
+			else
+			{
+				cout<<"you are not eligible to vote";
+			}
+		}
+};
+int main()
+{
+	age a;
+	a.display();
+}
