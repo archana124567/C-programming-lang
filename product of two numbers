@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class mul
+{
+	int num1,num2;
+	void get()
+	{
+		cout<<"enter two numbers :";
+		cin>>num1>>num2;
+	}
+	public:
+		void display()
+		{
+			get();
+			cout<<"multiplication of "<<num1<<" and "<<num2<<" is : "<<num1*num2;
+		}
+};
+int main()
+{
+	mul m;
+	m.display();
+	return 0;
+}
