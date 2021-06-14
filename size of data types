@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class size
+{
+	char a;
+	int b;
+	float c;
+	double d;
+	public:
+		void display()
+		{
+			cout<<"size of character data type is "<<sizeof(a)<<" byte"<<endl;
+			cout<<"size of integer data type is "<<sizeof(b)<<" byte"<<endl;
+			cout<<"size of float data type is "<<sizeof(c)<<" byte"<<endl;
+			cout<<"size of double data type is "<<sizeof(d)<<" byte"<<endl;
+		}
+};
+int main()
+{
+	size s;
+	s.display();
+}
